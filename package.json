@@ -1,0 +1,11 @@
+{
+  "name": "super-timetable",
+  "version": "3.2.3",
+  "private": true,
+  "type": "module",
+  "description": "课表 SuperTable — 周课表 / 日程待办 / 教务系统导入",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test test/schedule.test.mjs test/importers.test.mjs test/server.test.mjs test/rsa-base64.test.mjs"
+  }
+}
